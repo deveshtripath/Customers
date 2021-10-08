@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.customer input {
+    background: #ececec;
+    border: none;
+    border-radius: 8px;
+    height: 35px;
+}
+
+.extra-toggle-collapse {
+    color: #2a2a2a !important;
+    text-decoration: none !important;
+}
+
+.head a {
+    color: #5c5b5b;
+}
+
+.head h4 a:hover,
+.head h4 a:visited,
+.head h4 a:active {
+    text-decoration: none;
+    color: #5c5b5b;
+    font-weight: bold;
+    border-bottom: 5px solid #2dcc70;
+}
+
+.icon i {
+    font-size: 22px;
+    color: #5c5b5b;
+}
+
+.boorder {
+    border: 25px solid #ececec;
+}
+
+hr {
+    /* width: 97%; */
+    margin: 0 35px 0 35px;
+}
+
+.phone img {
+    width: 40%;
+}
+
+.history button {
+    color: rgb(248, 6, 6);
+    background: rgb(233, 155, 155);
+    border-radius: 12px;
+}
+
+.extra-magnify-space {
+    padding-left: 20px !important;
+}
+
+@media(max-width: 860px) {
+    .extra-magnify-space {
+        padding-left: 120px !important;
+    }
+}
+
+
+/* USER INFO CSS */
+
+@media(max-width: 767.98px) {
+    .user-pic-dashboard {
+        padding-top: 10px;
+        width: 20%;
+    }
+    .user-info-dashboard {
+        padding-top: 10px;
+        width: 80%;
+    }
+}
+
+
+/* CARD CSS */
+
+.bg-overlay:before {
+    content: "";
+    position: absolute;
+    background: 0 0!important;
+    opacity: .5;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2
+}
+
+.bg-overlay>.left-toolbar {
+    position: absolute;
+    left: 10px;
+    top: 10px
+}
+
+.header__search {
+    display: flex;
+    flex: 1;
+}
+
+.header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon {
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+}
